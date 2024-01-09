@@ -1,70 +1,336 @@
-body{
-    background-image: url("assets/background picture.png");
-    position: absolutegi;
-}
-*{
-    margin:0%;
-    font-family: Arial, Helvetica, sans-serif;
-    border:border-box;
-}
-.navbar{
-    height: 60px;
-    background-color: rgb(1, 1, 31);
-    color: white;
-    display:flex;
-    align-items: center;
-}
-.nav-logo{
-    height: 50px;
-    width: 100px;
-
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+  overflow-x: hidden;
 }
 
-.logo{
-    background-image: url("assets/logo.png");
-    background-size: cover;
-    height: 50px;
-    width:100%;
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.border{
-    border: 1.5px solid transparent;
-}
-.border.hover{
-    border: 1.5px  solid green;
-}
-/** box2**/
-.add-first{
-    color: rgb(239, 236, 236);
-    font-size: 0.5rem;
-    margin-left:15px
 
+.navlogo {
+  height: 50px;
+  width: 100px;
 }
-.add-second{
-    font-size: 0.5rem;
-    margin-left: 3px;
 
+.logo {
+  background-image: url(./assets/logo.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
 }
-.add-icon{
-    display: flex;
-    align-items: center;
+.border {
+  border: 2px solid transparent;
+  border-radius: 2px;
 }
-/** box3**/
-.nav-search{
-    display: flex;
-    justify-content:space-evenly;
-    background-color:bisque;
-    width: 620px;
-    height: 40px;
-    border-radius: 4px;
+.border:hover {
+  border: 1.5px solid white;
 }
-.search-select{
-    background-color: white;
-    width: 50px;
-    text-align: center;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+
+.addfirst {
+  color: white;
+  font-size: 12px;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.addsecond {
+  font-size: 14px;
+  margin-left: 3px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.addicon {
+  display: flex;
+  align-items: center;
+}
+
+.border2:hover {
+  border: 1.5px solid white;
+  height: 50px;
+}
+
+.search1 {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  background-color: rgb(255, 52, 52);
+  height: 40px;
+  width: 620px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 620px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  text-align: center;
+  background-color: #ff8484;
+  margin-left: 15px;
+  border-radius: 4px;
+  justify-content: space-evenly;
+}
+
+.search-option1 {
+  background-color: #f3f3f3;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-input{
     border: none;
-}.search-input{
-    width:100%;
-    font-size: 1rem;
 }
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(238, 156, 4, 0.849);
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+.lanoption {
+  font-weight: bolder;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.language option {
+  height: 50px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+.american {
+  background-image: url(./assets/indian\ flag.png);
+  background-size: cover;
+  height: 15px;
+  width: 20px;
+}
+
+.hello {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.account-sign {
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.return {
+  font-size: 12px;
+}
+
+.order {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart i {
+  font-size: 30px;
+}
+
+.cart {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+.second-nav {
+  height: 42px;
+  background-color: #222f3d;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.second-nav p {
+  display: inline;
+}
+
+.allicon {
+  padding-left: 8px;
+  align-items: center;
+  display: flex;
+  width: 58px;
+  height: 36px;
+}
+
+.list {
+  font-weight: 700;
+  margin: 2px;
+  font-size: 14px;
+}
+
+.panel-ops {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.option {
+  margin-left: 15px;
+}
+.deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.main{
+    background-image: url(./assets/background\ picture.png);
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+ .shop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: absolute;
+  top: 70%;
+  justify-content: space-evenly; 
+}
+
+.box{
+    height: 400px;
+    width: 103%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 8px;
+}
+
+.shop1{
+    font-size: 16px;
+}
+
+.box1-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box11-img{
+  height: 290px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box1-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.shop1 p a{
+      text-decoration: none;
+      color: #007185;
+      font-size: 15px;
+}
+.box1-content {
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.box1-img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px; 
+  border-radius: 8px; 
+  margin-bottom: 5px; 
+}
+
+@media only screen and (max-width: 600px) {
+  .shop {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 5px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .box1-img {
+    height: 75px; 
+  }
+  .main{
+      background-image: url(./assets/background\ picture.png);
+      height: 300px;
+      background-size: 150%;
+  }
+  .panel-ops {
+      width: 100%;
+      font-size: 0.6rem;
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+  
+  .option {
+      margin-left: 10px;
+  }
+  .deals{
+      font-size: 0.5rem;
+  }
+  .sign,
+  .box6,
+  .cart , .addfirst, .addsecond {
+  display: none;
+  }
+  .nav-search{
+      width: 300px;
+  }
+  .logo {
+      overflow-y: hidden;
+  }
+
+  
+}
+
